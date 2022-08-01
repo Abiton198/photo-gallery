@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #2A1A1F;
+    color: white;
+}
+
+* {
+    font-family: "Lucida Console", Monaco, monospace; 
+}
+
+img{
+    border: solid white 0.1rem;
+    border-radius: 0.7rem;
+   margin: 1rem;
+}
+
+.my-gallery{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.my-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.my-photo {
+    border: 0.1rem solid white;
+    border-radius: 0.7rem;
+    margin: 0.5rem;
+}
+
+#my-selected-photo {
+    display: none;
+}
+
+/* ========NOTES======
+
+1. display-flex = making contents of a container flex elements
+2. flex-direction = makes flex items row / column
+3. flex-wrap = making elements move down when they reach width size of container*/
